@@ -35,17 +35,18 @@ Run the script in a Python environment. The script is interactive and will promp
 
 **Example Workflow**:
 
-Generate a Time Series:
-Specify the number of sinusoidal components.
-Choose frequency, amplitude, and phase settings (random, set, or manual).
-Optionally, add white noise with specified bounds.
-Visualize the Time Series:
-View the time series in the time domain.
-Analyze the frequency domain using PSD plots.
-Apply Filters:
-Choose from high-pass, low-pass, or band-pass filters.
-Specify cutoff frequencies interactively.
-Compare the original and filtered series visually.
+- Generate a Time Series:
+- Specify the number of sinusoidal components.
+- Choose frequency, amplitude, and phase settings (random, set, or manual).
+- Optionally, add white noise with specified bounds.
+- Visualize the Time Series:
+- View the time series in the time domain.
+- Analyze the frequency domain using PSD plots.
+- Apply Filters:
+- Choose from high-pass, low-pass, or band-pass filters.
+- Specify cutoff frequencies interactively.
+- Compare the original and filtered series visually.
+
 **Example Input and Output:**
 ```bash
 How Many Sinusoids are in this Time Series? 5
