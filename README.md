@@ -3,27 +3,20 @@ Summary of Skills Learned Through PHYS 4060: Time series and Spectral Analysis
 
 This Python script allows you to generate, visualize, and apply frequency-based filters to synthetic time series data. The tool is interactive, prompting the user for input parameters to define the characteristics of the time series, including frequencies, amplitudes, phases, and noise levels. Additionally, it provides options for filtering the time series using high-pass, low-pass, and band-pass filters.
 
-Features
+# Features
 
 Time Series Generation:
-
-Customize the number of sinusoidal components.
-
-Specify or randomize frequencies, amplitudes, and phases.
-
-Add white noise with configurable bounds.
+- Customize the number of sinusoidal components.
+- Specify or randomize frequencies, amplitudes, and phases.
+- Add white noise with configurable bounds.
 
 Visualization:
-
-Plot the time series in the time domain.
-
-Compute and plot the Power Spectral Density (PSD) in the frequency domain.
+- Plot the time series in the time domain.
+- Compute and plot the Power Spectral Density (PSD) in the frequency domain.
 
 Filtering Options:
-
-Apply high-pass, low-pass, and band-pass filters with user-defined cutoff frequencies.
-
-Visualize the effects of filters in both time and frequency domains.
+- Apply high-pass, low-pass, and band-pass filters with user-defined cutoff frequencies.
+- Visualize the effects of filters in both time and frequency domains.
 
 Dependencies
 
@@ -34,6 +27,7 @@ matplotlib
 
 You can install these libraries using pip:
 
+```bash
 pip install numpy matplotlib
 
 Usage
