@@ -99,7 +99,3 @@ This project is open-source and available under the MIT License.
 Contribution
 
 Contributions are welcome! Feel free to fork the repository, submit issues, or create pull requests.
-
-Contact
-
-For questions or feedback, please reach out to the repository maintainer
